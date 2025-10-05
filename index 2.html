@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Silk Hair — Cozi de păr de lux</title>
+<meta name="description" content="Silk Hair — cozi de păr premium. Luxul care se prinde ușor. Consiliere nuanță & vânzări direct pe WhatsApp." />
+<style>
+  :root{--pink:#fdeef6;--pink-deep:#f6cfe0;--gold:#b78b45;--text:#2b2b2b;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,var(--pink) 0%, #fff 100%); color:var(--text);}
+  .container{max-width:1100px;margin:24px auto;padding:20px;}
+  header{display:flex;align-items:center;justify-content:space-between;padding:12px 0;}
+  .logo{font-weight:700;color:var(--text);letter-spacing:0.6px;font-size:20px;}
+  .nav a{margin-left:14px;text-decoration:none;color:var(--text);font-weight:600}
+  .hero{display:flex;gap:28px;align-items:center;margin-top:18px}
+  .hero-left{flex:1}
+  .kicker{display:inline-block;background:var(--pink-deep);padding:6px 10px;border-radius:999px;font-weight:700;color:var(--text);margin-bottom:10px}
+  h1{font-size:36px;margin:6px 0 12px;line-height:1.05;}
+  p.lead{font-size:18px;color:#5b5b5b;margin-bottom:16px;}
+  .ctas{display:flex;gap:12px;flex-wrap:wrap}
+  .btn{padding:12px 18px;border-radius:10px;border:2px solid var(--gold);background:transparent;color:var(--gold);font-weight:700;text-decoration:none}
+  .btn-primary{background:var(--gold);color:white;border-color:var(--gold)}
+  .hero-right{flex:1;display:flex;justify-content:center}
+  .hero-right img{max-width:100%;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.15)}
+
+  /* Gallery */
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}
+  .gallery img{width:100%;height:360px;object-fit:cover;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.08)}
+
+  /* Info + form */
+  .content{display:flex;gap:24px;margin-top:28px;align-items:flex-start}
+  .info{flex:1}
+  .info h3{color:var(--text);margin-bottom:8px}
+  .card{background:white;padding:18px;border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,0.05);}
+
+  form .row{display:flex;gap:8px;margin-bottom:10px}
+  form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e7e7e7}
+  form button{width:100%;padding:12px;border-radius:10px;background:var(--gold);color:white;border:none;font-weight:700;cursor:pointer}
+
+  /* Reviews */
+  .reviews{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .review{background:white;padding:14px;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,0.04)}
+
+  footer{margin-top:28px;padding:18px 0;text-align:center;color:#777;font-size:14px}
+  /* WhatsApp floating */
+  .whatsapp-fixed{position:fixed;right:18px;bottom:18px;background:#25D366;color:white;padding:14px;border-radius:50%;box-shadow:0 6px 18px rgba(0,0,0,0.2);z-index:9999;text-decoration:none;display:flex;align-items:center;justify-content:center}
+
+  /* Responsive */
+  @media(max-width:900px){ .hero{flex-direction:column-reverse} .gallery{grid-template-columns:repeat(2,1fr)} .content{flex-direction:column} .gallery img{height:260px} }
+  @media(max-width:520px){ h1{font-size:28px} .gallery{grid-template-columns:1fr} .gallery img{height:220px} }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">Silk Hair</div>
+    <nav class="nav"><a href="#produse">Produse</a><a href="#consiliere">Consiliere</a><a href="#recenzii">Recenzii</a></nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <div class="kicker">Cozi de păr — lux</div>
+      <h1>Luxul care se prinde ușor.</h1>
+      <p class="lead">Cozi de păr elegante, volum instant și aspect natural. Disponibile în nuanțe rafinate — alătură-te femeilor care deja strălucesc.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://wa.me/407733995229?text=Bun%C4%83%21%20Vreau%20s%C4%83%20cump%C4%83r%20o%20coad%C4%83%20Silk%20Hair.">Cumpără acum</a>
+        <a class="btn" href="#consiliere">Cere consiliere de nuanță</a>
+      </div>
+    </div>
+    <div class="hero-right card">
+      <img src="IMG_1173.jpeg" alt="Coada Silk Hair - blond lung">
+    </div>
+  </section>
+
+  <section id="produse" class="gallery" aria-label="Galerie produse">
+    <img src="IMG_1173.jpeg" alt="Blond - Silk Hair">
+    <img src="IMG_1175.jpeg" alt="Maro - Silk Hair">
+    <img src="IMG_1176.jpeg" alt="Negru - Silk Hair">
+  </section>
+
+  <section class="content">
+    <div class="info">
+      <div class="card">
+        <h3>De ce Silk Hair?</h3>
+        <p>Fibre premium cu luciu natural, textură mătăsoasă și durabilitate. Aplicare rapidă, confort maxim și un look profesional în câteva minute.</p>
+        <ul style="margin-top:10px;padding-left:18px;color:#555">
+          <li>Material de calitate superioară, rezistent</li>
+          <li>Gama largă de nuanțe (consiliere inclusă)</li>
+          <li>Ușor de aplicat și îngrijit</li>
+        </ul>
+      </div>
+
+      <div id="recenzii" style="margin-top:12px">
+        <h3 style="margin-bottom:8px">Ce spun cliente noastre</h3>
+        <div class="reviews">
+          <div class="review"><strong>⭐⭐⭐⭐⭐</strong><p style="margin-top:8px">„Coada e superbă, arată 100% natural! Am primit complimente toată ziua.” — Andreea M.</p></div>
+          <div class="review"><strong>⭐⭐⭐⭐⭐</strong><p style="margin-top:8px">„Aplicare ușoară, fibrele sunt moi și nu se încâlcesc. Recomand!” — Ioana T.</p></div>
+          <div class="review"><strong>⭐⭐⭐⭐⭐</strong><p style="margin-top:8px">„Livrare rapidă și produs de calitate. Revin cu plăcere.” — Maria P.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="card" style="width:360px;">
+      <h3 id="consiliere">Consiliere gratuită nuanță</h3>
+      <p style="color:#5b5b5b;margin-bottom:10px">Lasă-ne un mesaj și îți recomandăm nuanța perfectă. Poți încărca și o poză cu părul tău.</p>
+      <form id="contactForm" onsubmit="return submitForm();">
+        <div class="row"><input id="name" placeholder="Nume" required></div>
+        <div class="row"><input id="email" placeholder="Email (opțional)"></div>
+        <div class="row"><input id="phone" placeholder="Telefon (opțional)"></div>
+        <div style="margin-bottom:10px"><textarea id="message" placeholder="Spune-ne ce nuanță dorești / încarcă o poză (opțional)" rows="4"></textarea></div>
+        <button type="submit">Trimite cererea</button>
+      </form>
+      <p style="font-size:13px;color:#999;margin-top:8px">Vom răspunde pe WhatsApp: <strong>+40 773 995 229</strong></p>
+    </aside>
+  </section>
+
+  <footer>
+    © 2025 Silk Hair · Urmărește-ne pe Instagram & TikTok<br>
+    Politica de confidențialitate · Termeni
+  </footer>
+</div>
+
+<a class="whatsapp-fixed" href="https://wa.me/407733995229?text=Bun%C4%83%21%20Vreau%20consiliere%20pentru%20nuan%C8%9Ba%20cozii%20Silk%20Hair.">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M20.52 3.478C18.273 1.231 15.407 0 12.31 0 5.52 0 .05 5.47.05 12.26c0 2.166.56 4.28 1.62 6.13L0 24l5.9-1.5c1.84 1.03 3.92 1.58 6.03 1.58 6.79 0 12.27-5.47 12.27-12.26.01-3.09-1.22-5.96-3.69-8.14z"/></svg>
+</a>
+
+<script>
+function submitForm(){
+  var name = encodeURIComponent(document.getElementById('name').value || '');
+  var email = encodeURIComponent(document.getElementById('email').value || '');
+  var phone = encodeURIComponent(document.getElementById('phone').value || '');
+  var message = encodeURIComponent(document.getElementById('message').value || '');
+  var text = 'Cerere consiliere Silk Hair%0A' + 'Nume: ' + name + '%0A' + 'Email: ' + email + '%0A' + 'Telefon: ' + phone + '%0A' + 'Mesaj: ' + message;
+  var wa = "https://wa.me/407733995229?text=" + text;
+  window.open(wa, '_blank');
+  return false;
+}
+</script>
+</body>
+</html>
